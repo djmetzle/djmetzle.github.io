@@ -4,6 +4,7 @@ email: djmetzle@ncsu.edu
 description: > # this means to ignore newlines until "baseurl:"
   Ramblings about code
 github_username: djmetzle
+url: http://djmetzle.github.io
 
 # Build settings
 theme: jekyll-theme-hacker
