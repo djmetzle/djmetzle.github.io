@@ -30,9 +30,11 @@ Ruby by default (especially gem and bundler) seem to want to handle all their ow
 #### Solution?
 
 Cryptic errors abound. If you stumble onto the same issues, give 
+
 ```
 dnf install ruby-devel
 ``` 
+
 a try.
 
 ### References:
