@@ -23,9 +23,3 @@ footer-links:
   instagram:
 #  googleplus: # anything in your profile username that comes after plus.google.com/
 
-markdown: kramdown
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
