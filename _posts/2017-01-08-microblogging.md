@@ -11,12 +11,13 @@ Lets give it a try with GitHub pages!
 ## GitHub Pages
 Everyone with a GitHub account can create a statically hosted website. 
 
-**Free web-hosting for all!**
+**Free Web Hosting for all!**
 
 And that's *free* as in *beer*.
 
 ## Enter Jekyll
-Jekyll is a static website generator written in Ruby. You can checkout their main site here: [(JekyllRb.com)](https://jekyllrb.com/).
+Jekyll is a static website generator written in Ruby. 
+You can checkout their main site here: [JekyllRb.com](https://jekyllrb.com/).
 
 This means it should be relatively easy to hack up quick blog posts in MarkDown. Well, GitHub markdown at least, but that's what we're familiar with already, isn't it?
 
@@ -35,4 +36,5 @@ dnf install ruby-devel
 a try.
 
 ### References:
-https://help.github.com/categories/customizing-github-pages/
+[](https://guides.github.com/features/pages/)
+[](https://help.github.com/categories/customizing-github-pages/)
