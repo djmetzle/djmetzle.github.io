@@ -38,5 +38,5 @@ dnf install ruby-devel
 a try.
 
 ### References:
-[](https://guides.github.com/features/pages/)
-[](https://help.github.com/categories/customizing-github-pages/)
+https://guides.github.com/features/pages/
+https://help.github.com/categories/customizing-github-pages/
