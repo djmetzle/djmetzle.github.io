@@ -1,1 +1,10 @@
+title: djmetzle's Blog
+email: djmetzle@ncsu.edu
+description: > # this means to ignore newlines until "baseurl:"
+  Ramblings about code
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "djmetzle.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: djmetzle
+
+# Build settings
 theme: jekyll-theme-hacker
