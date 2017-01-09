@@ -40,5 +40,10 @@ There is a Jekyll page bootstrap repo available at [/barryclark/jekyll-now](http
 His `default.html` can be found [within /_layouts](https://github.com/barryclark/jekyll-now/blob/master/_layouts/default.html).
 This repo contains a `page.html` [as well](https://github.com/barryclark/jekyll-now/blob/master/_layouts/page.html).
 
+So using these as templates, with some careful modifications, we get [these](https://github.com/djmetzle/djmetzle.github.io/blob/master/_layouts/default.html) [files](https://github.com/djmetzle/djmetzle.github.io/blob/master/_layouts/page.html).
+
+### Thoughts
+They're ugly. We have a "Blog" link in the `nav`, so let's not `a` the title.
+Also, i think the `article` class needs some padding, so add that in styles as well.
 
 
