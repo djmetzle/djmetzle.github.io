@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Microblogging
+category: meta web
 ---
 
 [Microblogging](http://en.wikipedia.org/wiki/Microblogging) is the new buzzword topic in content creation. 

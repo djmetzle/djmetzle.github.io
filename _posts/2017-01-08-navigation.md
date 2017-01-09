@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Navigation
+category: meta ui
 ---
 
 I'd like to add some navigation to my little blog site.
