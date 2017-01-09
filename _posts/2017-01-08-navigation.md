@@ -3,7 +3,6 @@ layout: post
 title: Navigation
 ---
 
-## Intro
 I'd like to add some navigation to my little blog site.
 By default, the page layout's are set up in such a way that do not have links or footers. 
 

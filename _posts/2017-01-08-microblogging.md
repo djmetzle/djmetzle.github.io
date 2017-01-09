@@ -3,7 +3,6 @@ layout: post
 title: Microblogging
 ---
 
-## Intro
 [Microblogging](http://en.wikipedia.org/wiki/Microblogging) is the new buzzword topic in content creation. 
 
 Lets give it a try with GitHub pages!
