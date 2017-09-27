@@ -104,7 +104,7 @@ If you're comfortable with your settings click "Launch" (it's blue).
 ### The "Launch" Modal
 
 Uh-oh! That's not all.
-We still need to configure an SSH key to log into our new instance.
+We still need to configure an SSH [key pair](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html) to log into our new instance.
 In the dropdown that says "Choose an existing key pair" select "Create a new key pair".
 Give your new key an interesting name and download it with the "Download Key Pair" button.
 

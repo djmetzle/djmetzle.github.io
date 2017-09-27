@@ -20,13 +20,13 @@ Along the way, we should find the skeleton for building a simple web app. We'll 
 - [Step 1](/fizzbuzz/2017/09/28/fizzbuzz-domain.html) Register a Domain name
 - [Step 2](/fizzbuzz/2017/09/28/fizzbuzz-instance.html) Fire up an instance on Amazon Web Services
 - [Step 3](/) Add DNS Records
-- [Step 3](/) Configure Security Groups and Shell in
-- [Step 4](/) Configure Nginx
-- [Step 5](/) Let's Encrypt!
-- [Step 6](/) Some Hardnening
-- [Step 7](/) Hello Flask
-- [Step 8](/) Hello FizzBuzz
+- [Step 4](/) Configure Security Groups and Shell in
+- [Step 5](/) Configure Nginx
+- [Step 6](/) Let's Encrypt!
+- [Step 7](/) Some Hardnening
+- [Step 8](/) Hello Flask
+- [Step 9](/) Hello FizzBuzz
 
 `...`
 
-[Profit!](/)
+[Step 10](/) Profit!
