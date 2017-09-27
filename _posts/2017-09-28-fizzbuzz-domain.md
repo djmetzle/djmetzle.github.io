@@ -36,7 +36,7 @@ You will presented with a wizard to register your new domain name.
 - Lastly, you'll verify payment information
 
 ### Finished
-Once w've registered a new Domain, lets fire up something to point it at!
+Once we've registered a new Domain, lets fire up something to point it at!
 
 [Step 2](/): Fire up an instance on Amazon Web Services
 
