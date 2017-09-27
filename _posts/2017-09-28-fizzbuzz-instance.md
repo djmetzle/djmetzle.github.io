@@ -1,6 +1,6 @@
 ---
 layout: post
-title: FizzBuzz Domain
+title: FizzBuzz Instance
 category: fizzbuzz
 ---
 
