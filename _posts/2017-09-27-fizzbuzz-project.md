@@ -17,7 +17,7 @@ Lets build a nice web app and API around FizzBuzz. From now on, FizzBuzz can be 
 
 Along the way, we should find the skeleton for building a simple web app. We'll use some specific technologies, but the blueprint should stay about the same for any cool new web service you might want to build
 
-- [Step 1](/) Register a Domain name
+- [Step 1](/fizzbuzz/2017/09/28/fizzbuzz-domain.html) Register a Domain name
 - [Step 2](/) Fire up an instance on Amazon Web Services
 - [Step 3](/) Add DNS Records
 - [Step 4](/) Configure Nginx
