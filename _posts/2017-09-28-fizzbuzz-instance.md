@@ -49,14 +49,67 @@ I suggest copy and pasting the AMI ID back to wizard, as clicking the "Launch" b
 Back in the wizard, select "Community AMIs" and search for your choosen AMI ID.
 You should find a single entry.
 
-![AMI Search]({{ site.url }}/images/aws-ami-search.png)
+See what the search screen looks like [here](/images/aws-ami-search.png).
 
 Click "Select" to move on to Step 2.
 
 #### Step 2: Choose an Instance Type
 
+Select the `t2.micro` instance type.
+You should notice it has a marker for "Free tier eligible".
+If you are still eligible for the Free tier, you can run this instance Free (as in beer!) for one year.
 
+![T2 Micro]({{ site.url }}/images/aws-t2-micro.png)
 
+You could choose another instance type if you want to.
+Keep in mind though that all of the various instance types have different running costs.
+The different types even have different costs in different regions!
+You can explore the different instance types and their costs [on this very cool site](http://www.ec2instances.info/).
+
+Once you've picked an instance, click "Next" (not "Review and Launch"!).
+Make sure to Click "Next: Configure Instance Details" (it is *not* blue!).
+
+#### Step 3: Configure Instance Details
+
+There are several archane options on the step three form.
+The settings we are interested in getting correct for now are:
+
+- "Number of Instances" : 1
+
+- "Auto-assign Public IP" : Enabled
+
+- "Tenancy" : Shared
+
+You probably don't need to worry about the rest for now.
+
+Click "Next: Add Storage" (Warning! Again, it's *not* blue this time).
+
+#### Step 4: Add Storage
+
+You will configure the root "hard drive" for your instance in Step 4.
+Change the "Size" field to "30" GiB to use up our free tier.
+Use the "General Purpose SSD (GP2)" volume type.
+It is the default, and the best bang for the buck, especially for root volumes.
+This should give us plenty of breathing room.
+
+Optionally, feel free to add additionally volumes and space if you are comfortable with storage options.
+
+Now go ahead and click "Review and Launch" (the blue one!).
+We will configure Security Groups later in the EC2 console.
+
+#### Step 7: Review Instance Launch
+
+You should see all of your instance settings layed out in a nice report.
+If you're comfortable with your settings click "Launch" (it's blue).
+
+### The "Launch" Modal
+
+Uh-oh! That's not all.
+We still need to configure an SSH key to log into our new instance.
+In the dropdown that says "Choose an existing key pair" select "Create a new key pair".
+Give your new key an interesting name and download it with the "Download Key Pair" button.
+
+Once you have your new SSH key secured, click the "Launch Instance" button to create your new EC2 instance!
 
 ### Finished
 Now that we've got an instance up and running, lets point a DNS record at it!
