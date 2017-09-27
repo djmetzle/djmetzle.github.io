@@ -23,17 +23,20 @@ It will be located under the `Networking & Content Delivery` section.
 
 ![Services Tab]({{ site.url }}/images/aws-services-route53.png)
 
-Next, browse to `Hosted Zones` from the Dashboard and click the `Create Hosted Zone` Button.
+Next, browse to `Registered domains` from the Dashboard and click the `Register Domain` Button.
 
-![Create Button]({{ site.url }}/images/aws-create-hosted-zone.png)
+![Register Button]({{ site.url }}/images/aws-register-domain.png)
 
+You will presented with a wizard to register your new domain name. 
 
-### TODO: Finish Me
+- First you can search for available Domain names at various TLDs.
 
+- Next, you will need to provide contact information for Whois
 
+- Lastly, you'll verify payment information
 
 ### Finished
-Now that we've registered a Domain, lets fire up something to point it at!
+Once w've registered a new Domain, lets fire up something to point it at!
 
 [Step 2](/): Fire up an instance on Amazon Web Services
 
