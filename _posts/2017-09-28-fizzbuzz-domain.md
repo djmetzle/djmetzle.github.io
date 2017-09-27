@@ -38,7 +38,7 @@ You will presented with a wizard to register your new domain name.
 ### Finished
 Once we've registered a new Domain, lets fire up something to point it at!
 
-[Step 2](/): Fire up an instance on Amazon Web Services
+[Step 2](/fizzbuzz/2017/09/28/fizzbuzz-instance.html): Fire up an instance on Amazon Web Services
 
 - [Project](/fizzbuzz/2017/09/27/fizzbuzz-project.html) Project Page
 

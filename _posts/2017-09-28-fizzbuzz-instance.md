@@ -36,11 +36,10 @@ A wizard will open to configure your new EC2 instance.
 #### Step 1: Choose an Amazon Machine Image (AMI)
 First we need to select a base operating system image.
 
-
-For this tutorial, i will be using my linux distribution of choice, Fedora.
+For this tutorial, i will be using my linux distribution of choice, [Fedora](https://getfedora.org).
 This is not required, but the further you stray from this choice, the less applicable this guide will be.
 
-Visit the [Fedora Cloud Images](https://cloud.fedoraproject.org) website to get an AMI (Amazon Machine Image) ID.
+Visit the [Fedora Cloud Images](https://cloud.fedoraproject.org) website to get an AMI ([Amazon Machine Image](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AMIs.html)) ID.
 Select "GP2 HVM AMIs" (these are the current generation) from "Cloud Base Images for Amazon Public Cloud".
 Clicking "Click to launch" will open a modal with AMI ID's for the various AWS Regions.
 Choose the AMI ID for the region you want your server to live in.
