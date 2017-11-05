@@ -6,31 +6,27 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
+    <div id="container">
+      <div class="inner">
         <header class="masthead clearfix">
-          <div class="site-info">
-            <h1 class="site-name">{{ site.name }}</h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
+          <h1>{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
+          <h2>{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
         </header>
-      </div>
-    </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
-    </div>
+        <hr>
 
-    <div class="wrapper-footer">
-      <div class="container">
+        <div id="main_content">
+          {{ content }}
+        </div>
+
         <footer class="footer">
-		<center>Email Me: <a href="mailto:djmetzle@ncsu.edu">djmetzle@ncsu.edu</a></center>
+          <center>Email Me: <a href="mailto:djmetzle@ncsu.edu">djmetzle@ncsu.edu</a></center>
         </footer>
+
       </div>
     </div>
   </body>
