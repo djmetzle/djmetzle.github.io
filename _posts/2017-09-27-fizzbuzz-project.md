@@ -20,7 +20,7 @@ Along the way, we should find the skeleton for building a simple web app. We'll 
 - [Step 1](/fizzbuzz/2017/09/28/fizzbuzz-domain.html) Register a Domain name
 - [Step 2](/fizzbuzz/2017/09/28/fizzbuzz-instance.html) Fire up an instance on Amazon Web Services
 - [Step 3](/fizzbuzz/2017/11/01/fizzbuzz-dns.html) Add DNS Records
-- [Step 4](/) Configure Security Groups and Networking
+- [Step 4](/fizzbuzz/2017/11/05/fizzbuzz-security-groups) Configure Security Groups and Networking
 - [Step 5](/) Configure Nginx
 - [Step 6](/) Let's Encrypt!
 - [Step 7](/) Some Hardnening
