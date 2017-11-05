@@ -51,10 +51,6 @@ Run from a command line: `ping <the elastic ip>`.
 Is ping working? If not, go through the Troubleshooting steps.
 Otherwise, you can skip to the "Shell In" section.
 
-### Shell In
-
-Our instance should have an Elastic IP from the [last step](https://djmetzle.github.io/fizzbuzz/2017/11/01/fizzbuzz-dns.html).
-
 ### Troubleshooting
 
 Our instance doesn't want to connect.
@@ -130,6 +126,8 @@ If that fails, give [Step 2](/fizzbuzz/2017/09/28/fizzbuzz-instance.html) anothe
 ### Shell In
 
 Now that our instance is internet connected, lets shell into it.
+Our instance should have an Elastic IP from the [last step](https://djmetzle.github.io/fizzbuzz/2017/11/01/fizzbuzz-dns.html).
+
 
 You will need an SSH client.
 Most linux distributions come with an `ssh` client installed.
