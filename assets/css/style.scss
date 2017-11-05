@@ -3,21 +3,12 @@
 
 @import "{{ site.theme }}";
 
-code {
-	color: #ff4444;
-}
-
-h1, h2, h3, h4, h5, h6  {
-	color: #aaffaa;
-}
-
-a {
-	color: #7171ff;
+header {
+	margin: 2em;
 }
 
 article {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #aaaaaa;
-	padding: 2.5em;
 }
